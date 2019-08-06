@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <AssemblyName>SerkoGSTCalculatorApi.Web</AssemblyName>
+    <RootNamespace>SerkoGSTCalculatorApi.Web</RootNamespace>
+    <PackageId>SerkoGSTCalculatorApi.Web</PackageId>
+    <Company>SerkoGSTCalculatorApi.Web</Company>
+    <Authors>SerkoGSTCalculatorApi.Web</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SerkoGSTCalculatorApi.Business\SerkoGSTCalculatorApi.Business.csproj" />
+    <ProjectReference Include="..\SerkoGSTCalculatorApi.Model\SerkoGSTCalculatorApi.Model.csproj" />
+  </ItemGroup>
+
+</Project>

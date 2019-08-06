@@ -1,0 +1,51 @@
+{
+	"id": "cf48584f-a260-0cf8-38b8-713750a93572",
+	"name": "Serko",
+	"description": "",
+	"order": [
+		"beeee065-057a-4dcd-d84b-12ad9c4a5136"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1564537124886,
+	"owner": "8350138",
+	"public": false,
+	"requests": [
+		{
+			"id": "beeee065-057a-4dcd-d84b-12ad9c4a5136",
+			"headers": "Authorization: Basic eXZOeFdVNGNLa3E5SllvTnIxNXNkZnNzZGZzWDo6MjAxOS8wOC8wNiAxNTo0ODoyNw==\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic eXZOeFdVNGNLa3E5SllvTnIxNXNkZnNzZGZzWDo6MjAxOS8wOC8wNiAxNTo0ODoyNw==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SerkoGSTCalculatorApi/api/GSTCalculator/GetCostCalculationResult",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565088391826,
+			"name": "Serko GST Calculator",
+			"description": "",
+			"collectionId": "cf48584f-a260-0cf8-38b8-713750a93572",
+			"responses": [],
+			"rawModeData": "{\"MailText\":\"Hi Yvaine, Please create an expense claim for the below. Relevant details are marked up as requested… <expense><cost_centre>DEV002</cost_centre> <total>1024.01</total><payment_method>personal card</payment_method> </expense> From: Ivan Castle Sent: Friday, 16 February 2018 10:32 AM To: Antoine Lloyd <Antoine.Lloyd@example.com> Subject: test Hi Antoine, Please create a reservation at the <vendor>Viaduct Steakhouse</vendor> our <description>development team’s project end celebration dinner</description> on <date>Tuesday 27 April 2017</date>. We expect to arrive around 7.15pm. Approximately 12 people but I’ll confirm exact numbers closer to the day. Regards, Ivan\",\"TimeStampValue\":\"2019/08/06 15:48:27\"}"
+		}
+	]
+}
